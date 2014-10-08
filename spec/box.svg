@@ -152,9 +152,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="2635.7852"
-     inkscape:cy="196.3751"
+     inkscape:zoom="15.839192"
+     inkscape:cx="1290.652"
+     inkscape:cy="382.14689"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -177,7 +177,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1355,7 +1355,7 @@
        sodipodi:nodetypes="ccccccccccccc"
        inkscape:connector-curvature="0"
        id="path10397"
-       d="m 1366.2507,897.93512 0,228.28128 293.7188,0 0,-228.28128 -15,0 0,21.875 -14.9376,0 0,177.65628 -233.875,0 0,-177.37503 -16.5477,0 0,-22.15625 z"
+       d="m 1366.2507,897.93512 0,228.28128 293.7188,0 0,-228.28128 -15,0 0,21.875 -14.9376,0 0,177.65628 -233.875,0 0,-177.37503 -16.9048,0 0,-22.15625 z"
        style="fill:#babdb6;fill-opacity:1;stroke:#000000;stroke-width:0.30000001;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
     <path
        inkscape:export-ydpi="194.61276"
@@ -1497,7 +1497,7 @@
        inkscape:export-xdpi="194"
        inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/spec/bokorys-vrsek.png"
        id="path10441"
-       d="m 1366.3132,710.22083 0,183.74048 17.1759,0 0,22.38452 12.7304,0 0,-177.375 233.875,0 0,177.65625 14.8437,0 0,-21.46875 15.0937,0 0,-184.9375 z"
+       d="m 1366.3132,710.22083 0,183.74048 16.8188,0 0,22.38452 13.0875,0 0,-177.375 233.875,0 0,177.65625 14.8437,0 0,-21.46875 15.0937,0 0,-184.9375 z"
        style="fill:#babdb6;fill-opacity:1;stroke:#000000;stroke-width:0.30000001;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccc" />
@@ -1702,7 +1702,7 @@
        style="fill:none;stroke:#000000;stroke-width:0.06953894;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.06953894, 0.06953894;stroke-dashoffset:0;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.06953894;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.06953894, 0.06953894;stroke-dashoffset:0;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
-       d="m 1383.2641,909.64609 -3.5596,0"
+       d="m 1382.9962,909.64609 -3.5596,0"
        id="path11319"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
@@ -1743,12 +1743,12 @@
        inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/spec/bokorys-vrsek.png"
        sodipodi:linespacing="125%"
        id="text11329"
-       y="1381.8328"
+       y="1381.5651"
        x="-909.27979"
        style="font-size:1.51743615px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
        xml:space="preserve"
        transform="matrix(0,-1,1,0,0,0)"><tspan
-         y="1381.8328"
+         y="1381.5651"
          x="-909.27979"
          id="tspan11331"
          sodipodi:role="line">reserve</tspan></text>
@@ -1795,12 +1795,12 @@
        sodipodi:linespacing="125%"
        id="text11737"
        y="1371.2311"
-       x="-911.65509"
+       x="-905.65509"
        style="font-size:1.51743615px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
        xml:space="preserve"
        transform="matrix(0,-1,1,0,0,0)"><tspan
          y="1371.2311"
-         x="-911.65509"
+         x="-905.65509"
          id="tspan11739"
          sodipodi:role="line">lock_Z</tspan></text>
     <text
@@ -1828,5 +1828,51 @@
        inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/spec/lock.png"
        inkscape:export-xdpi="905.00006"
        inkscape:export-ydpi="905.00006" />
+    <path
+       style="stroke:#000000;stroke-width:0.07890622000000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.07890621000000000, 0.07890621000000000;stroke-dashoffset:0;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="m 1396.0244,911.10225 -12.5576,0"
+       id="path10372"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/spec/bokorys-vrsek.png"
+       inkscape:export-xdpi="194.61276"
+       inkscape:export-ydpi="194.61276" />
+    <path
+       inkscape:export-ydpi="194.61276"
+       inkscape:export-xdpi="194.61276"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/spec/bokorys-vrsek.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path10374"
+       d="m 1378.9543,911.10225 -12.5576,0"
+       style="stroke:#000000;stroke-width:0.07890622000000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.07890621000000000, 0.07890621000000000;stroke-dashoffset:0;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)" />
+    <text
+       inkscape:export-ydpi="194.61276"
+       inkscape:export-xdpi="194.61276"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/spec/bokorys-vrsek.png"
+       sodipodi:linespacing="125%"
+       id="text11198"
+       y="911.65448"
+       x="1372.3583"
+       style="font-size:1.98296094px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       xml:space="preserve"><tspan
+         y="911.65448"
+         x="1372.3583"
+         id="tspan11200"
+         sodipodi:role="line">*</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.98296094px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="1389.936"
+       y="911.65448"
+       id="text11202"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/spec/bokorys-vrsek.png"
+       inkscape:export-xdpi="194.61276"
+       inkscape:export-ydpi="194.61276"><tspan
+         sodipodi:role="line"
+         id="tspan11204"
+         x="1389.936"
+         y="911.65448">*</tspan></text>
   </g>
 </svg>
