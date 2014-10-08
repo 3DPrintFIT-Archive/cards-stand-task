@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1188.4664"
+   height="1175.2856"
+   id="svg2"
+   inkscape:label="Pozadí"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="box.svg">
+  <defs
+     id="defs3">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path10920"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path10917"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="663.17247"
+     inkscape:cy="52.082276"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1616"
+     inkscape:window-height="1026"
+     inkscape:window-x="64"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <sodipodi:guide
+       orientation="0,1"
+       position="224.46358,1081.2961"
+       id="guide12320" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata6">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-101.25071,-114.80119)">
+    <rect
+       ry="94.700836"
+       y="117.37926"
+       x="132.87421"
+       height="357.1087"
+       width="473.28937"
+       id="rect11909"
+       style="fill:#babdb6;fill-opacity:1;stroke:#000000;stroke-width:1.0341413;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431" />
+    <rect
+       style="fill:#babdb6;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect10139"
+       width="459.03778"
+       height="344.28571"
+       x="140"
+       y="123.79076"
+       ry="87.85714"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#babdb6;fill-opacity:1;stroke:#000000;stroke-width:0.64571458;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.64571461, 0.64571461;stroke-dashoffset:0"
+       id="path10141"
+       sodipodi:cx="263.39728"
+       sodipodi:cy="253.58406"
+       sodipodi:rx="54.2957"
+       sodipodi:ry="54.2957"
+       d="m 317.69298,253.58406 c 0,29.98669 -24.30902,54.2957 -54.2957,54.2957 -29.98669,0 -54.2957,-24.30901 -54.2957,-54.2957 0,-29.98669 24.30901,-54.2957 54.2957,-54.2957 29.98668,0 54.2957,24.30901 54.2957,54.2957 z"
+       transform="matrix(1.5486718,0,0,1.5486718,-182.5504,-184.23724)"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99603587;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.99603586, 0.99603586;stroke-dashoffset:0;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="m 141.16515,357.37723 455.98264,0"
+       id="path10911"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path11907"
+       d="m 369.21075,126.13894 0,340.78855"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1, 1;stroke-dashoffset:0;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.30172417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="m 119.00062,836.47732 0,17.67242 17.24138,0"
+       id="path11930"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="128.91441"
+       y="853.28766"
+       id="text12300"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431"><tspan
+         sodipodi:role="line"
+         id="tspan12302"
+         x="128.91441"
+         y="853.28766">x</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="120.0782"
+       y="843.58936"
+       id="text12304"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431"><tspan
+         sodipodi:role="line"
+         id="tspan12306"
+         x="120.0782"
+         y="843.58936">y</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text12308"
+       y="353.79074"
+       x="519.28571"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       xml:space="preserve"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431"><tspan
+         y="353.79074"
+         x="519.28571"
+         id="tspan12310"
+         sodipodi:role="line">x</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text12312"
+       y="189.505"
+       x="372.85715"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       xml:space="preserve"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431"><tspan
+         y="189.505"
+         x="372.85715"
+         id="tspan12314"
+         sodipodi:role="line">y</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1, 1;stroke-dashoffset:0;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="m 169.64286,270.93361 56.07143,-62.14286"
+       id="path12322"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="-29.2432"
+       y="305.78381"
+       id="text12692"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.72185967,-0.69203946,0.69203946,0.72185967,0,0)"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431"><tspan
+         sodipodi:role="line"
+         id="tspan12694"
+         x="-29.2432"
+         y="305.78381">rad</tspan></text>
+    <rect
+       inkscape:export-ydpi="119.84431"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       style="fill:#babdb6;fill-opacity:1;stroke:#000000;stroke-width:1.0341413;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect12696"
+       width="473.28937"
+       height="357.1087"
+       x="130.01706"
+       y="519.37927"
+       ry="94.700836" />
+    <rect
+       inkscape:export-ydpi="119.84431"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       ry="70.517105"
+       y="538.43262"
+       x="153.99829"
+       height="313.50488"
+       width="425.3269"
+       id="rect12698"
+       style="fill:#babdb6;fill-opacity:1;stroke:#000000;stroke-width:0.91854376;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.22935022;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.22935023, 0.22935023;stroke-dashoffset:0;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="m 130.59813,771.79075 22.95681,0"
+       id="path12707"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path13077"
+       d="m 159.17236,849.61409 15.80835,-16.64668"
+       style="fill:none;stroke:#000000;stroke-width:0.22935022;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.22935023, 0.22935023;stroke-dashoffset:0;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path13079"
+       d="m 236.147,852.79778 0,22.95681"
+       style="fill:none;stroke:#000000;stroke-width:0.22935022;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.22935023, 0.22935023;stroke-dashoffset:0;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)" />
+    <text
+       inkscape:export-ydpi="119.84431"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       sodipodi:linespacing="125%"
+       id="text13086"
+       y="776.14484"
+       x="135.70012"
+       style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       xml:space="preserve"><tspan
+         y="776.14484"
+         x="135.70012"
+         id="tspan13088"
+         sodipodi:role="line">wall_thick</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="-481.71838"
+       y="713.26685"
+       id="text13090"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431"
+       transform="matrix(0.71012179,-0.70407886,0.70407886,0.71012179,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan13092"
+         x="-481.71838"
+         y="713.26685">wall_thick</tspan></text>
+    <text
+       inkscape:export-ydpi="119.84431"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       sodipodi:linespacing="125%"
+       id="text13094"
+       y="864.18054"
+       x="228.39287"
+       style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       xml:space="preserve"><tspan
+         y="864.18054"
+         x="228.39287"
+         id="tspan13096"
+         sodipodi:role="line">wall_thick</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.01;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.01, 0.01;stroke-dashoffset:0"
+       id="rect13098"
+       width="161.25"
+       height="142.85715"
+       x="104.64286"
+       y="749.86218"
+       ry="0"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/roh.png"
+       inkscape:export-xdpi="314.60779"
+       inkscape:export-ydpi="314.60779" />
+    <path
+       inkscape:export-ydpi="119.84431"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:connector-curvature="0"
+       id="path13100"
+       d="m 804.8942,432.4163 0,17.67242 17.24138,0"
+       style="fill:none;stroke:#000000;stroke-width:0.30172417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)" />
+    <text
+       inkscape:export-ydpi="119.84431"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       sodipodi:linespacing="125%"
+       id="text13102"
+       y="449.22665"
+       x="814.80804"
+       style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       xml:space="preserve"><tspan
+         y="449.22665"
+         x="814.80804"
+         id="tspan13104"
+         sodipodi:role="line">x</tspan></text>
+    <text
+       inkscape:export-ydpi="119.84431"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       sodipodi:linespacing="125%"
+       id="text13106"
+       y="439.52835"
+       x="805.9718"
+       style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       xml:space="preserve"><tspan
+         y="439.52835"
+         x="805.9718"
+         id="tspan13108"
+         sodipodi:role="line">y</tspan></text>
+    <rect
+       ry="94.700836"
+       y="115.31826"
+       x="815.91064"
+       height="357.1087"
+       width="473.28937"
+       id="rect13110"
+       style="fill:#babdb6;fill-opacity:1;stroke:#000000;stroke-width:1.0341413;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431" />
+    <rect
+       style="fill:#ef2929;fill-opacity:1;stroke:#000000;stroke-width:0.91854376;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect13112"
+       width="425.3269"
+       height="313.50488"
+       x="839.89191"
+       y="134.3716"
+       ry="84.802818"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path13114"
+       d="m 816.49171,367.72973 22.95681,0"
+       style="fill:none;stroke:#000000;stroke-width:0.22935022;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.22935023, 0.22935023;stroke-dashoffset:0;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.229, 0.229;stroke-dashoffset:0;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="m 845.06594,445.55307 15.80835,-16.64668"
+       id="path13116"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.22935022;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.22935023, 0.22935023;stroke-dashoffset:0;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="m 922.04058,448.73676 0,22.95681"
+       id="path13118"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="821.59375"
+       y="372.08383"
+       id="text13120"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431"><tspan
+         sodipodi:role="line"
+         id="tspan13122"
+         x="821.59375"
+         y="372.08383">wall_thick</tspan></text>
+    <text
+       transform="matrix(0.71012179,-0.70407886,0.70407886,0.71012179,0,0)"
+       inkscape:export-ydpi="119.84431"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       sodipodi:linespacing="125%"
+       id="text13124"
+       y="909.25751"
+       x="289.84042"
+       style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#cc0000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       xml:space="preserve"><tspan
+         y="909.25751"
+         x="289.84042"
+         id="tspan13126"
+         sodipodi:role="line">wall_thick</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="914.2865"
+       y="460.11954"
+       id="text13128"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431"><tspan
+         sodipodi:role="line"
+         id="tspan13130"
+         x="914.2865"
+         y="460.11954">wall_thick</tspan></text>
+    <rect
+       inkscape:export-ydpi="314.60779"
+       inkscape:export-xdpi="314.60779"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/roh_bad.png"
+       ry="0"
+       y="345.80118"
+       x="790.53644"
+       height="142.85715"
+       width="161.25"
+       id="rect13132"
+       style="fill:none;stroke:#000000;stroke-width:0.01;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.01, 0.01;stroke-dashoffset:0" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="881.60718"
+       y="400.75504"
+       id="text13502"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan13504"
+         x="881.60718"
+         y="400.75504">špatně</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.30172417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="m 798.46563,825.27344 0,17.67242 17.24138,0"
+       id="path13506"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="808.37946"
+       y="842.0838"
+       id="text13508"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431"><tspan
+         sodipodi:role="line"
+         id="tspan13510"
+         x="808.37946"
+         y="842.0838">x</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="799.54321"
+       y="832.3855"
+       id="text13512"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431"><tspan
+         sodipodi:role="line"
+         id="tspan13514"
+         x="799.54321"
+         y="832.3855">y</tspan></text>
+    <rect
+       inkscape:export-ydpi="119.84431"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       style="fill:#babdb6;fill-opacity:1;stroke:#000000;stroke-width:1.0341413;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect13516"
+       width="473.28937"
+       height="357.1087"
+       x="809.48206"
+       y="508.17542"
+       ry="94.700836" />
+    <rect
+       inkscape:export-ydpi="119.84431"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       ry="54.498219"
+       y="527.22876"
+       x="833.46332"
+       height="313.50488"
+       width="425.3269"
+       id="rect13518"
+       style="fill:#ef2929;fill-opacity:1;stroke:#000000;stroke-width:0.91854376;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.22935022;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.22935023, 0.22935023;stroke-dashoffset:0;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="m 810.06314,760.58687 22.95681,0"
+       id="path13520"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path13522"
+       d="m 838.63737,838.41021 15.80835,-16.64668"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.229, 0.229;stroke-dashoffset:0;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path13524"
+       d="m 915.61201,841.5939 0,22.95681"
+       style="fill:none;stroke:#000000;stroke-width:0.22935022;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.22935023, 0.22935023;stroke-dashoffset:0;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)" />
+    <text
+       inkscape:export-ydpi="119.84431"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       sodipodi:linespacing="125%"
+       id="text13526"
+       y="764.94098"
+       x="815.16516"
+       style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       xml:space="preserve"><tspan
+         y="764.94098"
+         x="815.16516"
+         id="tspan13528"
+         sodipodi:role="line">wall_thick</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#cc0000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="5.1342053"
+       y="1182.9653"
+       id="text13530"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431"
+       transform="matrix(0.71012179,-0.70407886,0.70407886,0.71012179,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan13532"
+         x="5.1342053"
+         y="1182.9653">wall_thick</tspan></text>
+    <text
+       inkscape:export-ydpi="119.84431"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       sodipodi:linespacing="125%"
+       id="text13534"
+       y="852.97668"
+       x="907.85791"
+       style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       xml:space="preserve"><tspan
+         y="852.97668"
+         x="907.85791"
+         id="tspan13536"
+         sodipodi:role="line">wall_thick</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.01;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.01, 0.01;stroke-dashoffset:0"
+       id="rect13538"
+       width="161.25"
+       height="142.85715"
+       x="784.10785"
+       y="738.65833"
+       ry="0"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/roh_bad2.png"
+       inkscape:export-xdpi="314.60779"
+       inkscape:export-ydpi="314.60779" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text13540"
+       y="793.61218"
+       x="875.17859"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       xml:space="preserve"><tspan
+         y="793.61218"
+         x="875.17859"
+         id="tspan13542"
+         sodipodi:role="line">špatně</tspan></text>
+    <g
+       id="g13608"
+       transform="translate(-4.0406102,20.708127)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.30172417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+         d="m 115.60849,1233.8449 0,17.6724 17.24138,0"
+         id="path13544"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+         inkscape:export-xdpi="119.84431"
+         inkscape:export-ydpi="119.84431" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+         x="125.52232"
+         y="1250.6553"
+         id="text13546"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+         inkscape:export-xdpi="119.84431"
+         inkscape:export-ydpi="119.84431"><tspan
+           sodipodi:role="line"
+           id="tspan13548"
+           x="125.52232"
+           y="1250.6553">x</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+         x="116.68607"
+         y="1240.9569"
+         id="text13550"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+         inkscape:export-xdpi="119.84431"
+         inkscape:export-ydpi="119.84431"><tspan
+           sodipodi:role="line"
+           id="tspan13552"
+           x="116.68607"
+           y="1240.9569">y</tspan></text>
+    </g>
+    <rect
+       ry="24.33674"
+       y="916.74683"
+       x="126.62492"
+       height="357.1087"
+       width="473.28937"
+       id="rect13554"
+       style="fill:#babdb6;fill-opacity:1;stroke:#000000;stroke-width:1.0341413;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431" />
+    <rect
+       style="fill:#babdb6;fill-opacity:1;stroke:#000000;stroke-width:0.91854376;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect13556"
+       width="425.3269"
+       height="313.50488"
+       x="150.60617"
+       y="935.80017"
+       ry="0"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431" />
+    <g
+       id="g13615"
+       transform="translate(0,52)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.22935022;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.22935023, 0.22935023;stroke-dashoffset:0;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+         d="m 127.206,1169.1583 22.95681,0"
+         id="path13558"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <text
+         inkscape:export-ydpi="119.84431"
+         inkscape:export-xdpi="119.84431"
+         inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+         sodipodi:linespacing="125%"
+         id="text13564"
+         y="1173.5125"
+         x="132.30801"
+         style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+         xml:space="preserve"><tspan
+           y="1173.5125"
+           x="132.30801"
+           id="tspan13566"
+           sodipodi:role="line">wall_thick</tspan></text>
+    </g>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.229, 0.229;stroke-dashoffset:0;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="m 134.27769,1266.3056 15.80835,-16.6466"
+       id="path13560"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       transform="matrix(0.71012179,-0.70407886,0.70407886,0.71012179,0,0)"
+       inkscape:export-ydpi="119.84431"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       sodipodi:linespacing="125%"
+       id="text13568"
+       y="990.88635"
+       x="-793.49066"
+       style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       xml:space="preserve"><tspan
+         y="990.88635"
+         x="-793.49066"
+         id="tspan13570"
+         sodipodi:role="line">wall_thick</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.22935022;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.22935023, 0.22935023;stroke-dashoffset:0;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="m 172.75487,1250.1653 0,22.9568"
+       id="path13562"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="165.00076"
+       y="1261.5481"
+       id="text13572"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431"><tspan
+         sodipodi:role="line"
+         id="tspan13574"
+         x="165.00076"
+         y="1261.5481">wall_thick</tspan></text>
+    <rect
+       inkscape:export-ydpi="314.60779"
+       inkscape:export-xdpi="314.60779"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/roh90.png"
+       ry="0"
+       y="1212.6371"
+       x="101.25071"
+       height="77.44976"
+       width="88.013947"
+       id="rect13576"
+       style="fill:none;stroke:#000000;stroke-width:0.00543982;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.00543983, 0.00543983;stroke-dashoffset:0" />
+    <text
+       inkscape:export-ydpi="119.84431"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       sodipodi:linespacing="125%"
+       id="text10232"
+       y="1245.3654"
+       x="154.39417"
+       style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       xml:space="preserve"><tspan
+         y="1245.3654"
+         x="154.39417"
+         id="tspan10234"
+         sodipodi:role="line">rad &lt;= 0</tspan></text>
+    <g
+       transform="translate(582.56653,23.029556)"
+       id="g10236">
+      <path
+         inkscape:export-ydpi="119.84431"
+         inkscape:export-xdpi="119.84431"
+         inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+         inkscape:connector-curvature="0"
+         id="path10238"
+         d="m 115.60849,1233.8449 0,17.6724 17.24138,0"
+         style="fill:none;stroke:#000000;stroke-width:0.30172417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)" />
+      <text
+         inkscape:export-ydpi="119.84431"
+         inkscape:export-xdpi="119.84431"
+         inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+         sodipodi:linespacing="125%"
+         id="text10240"
+         y="1250.6553"
+         x="125.52232"
+         style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+         xml:space="preserve"><tspan
+           y="1250.6553"
+           x="125.52232"
+           id="tspan10242"
+           sodipodi:role="line">x</tspan></text>
+      <text
+         inkscape:export-ydpi="119.84431"
+         inkscape:export-xdpi="119.84431"
+         inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+         sodipodi:linespacing="125%"
+         id="text10244"
+         y="1240.9569"
+         x="116.68607"
+         style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+         xml:space="preserve"><tspan
+           y="1240.9569"
+           x="116.68607"
+           id="tspan10246"
+           sodipodi:role="line">y</tspan></text>
+    </g>
+    <rect
+       inkscape:export-ydpi="119.84431"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       style="fill:#babdb6;fill-opacity:1;stroke:#000000;stroke-width:1.0341413;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect10248"
+       width="473.28937"
+       height="357.1087"
+       x="710.91064"
+       y="910.31824"
+       ry="0" />
+    <rect
+       inkscape:export-ydpi="119.84431"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       ry="0"
+       y="929.37158"
+       x="734.89191"
+       height="313.50488"
+       width="425.3269"
+       id="rect10250"
+       style="fill:#cc0000;fill-opacity:1;stroke:#000000;stroke-width:0.91854376;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <g
+       transform="translate(584.28571,45.571429)"
+       id="g10252">
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path10254"
+         d="m 127.206,1169.1583 22.95681,0"
+         style="fill:none;stroke:#000000;stroke-width:0.22935022;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.22935023, 0.22935023;stroke-dashoffset:0;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+         x="132.30801"
+         y="1173.5125"
+         id="text10256"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+         inkscape:export-xdpi="119.84431"
+         inkscape:export-ydpi="119.84431"><tspan
+           sodipodi:role="line"
+           id="tspan10258"
+           x="132.30801"
+           y="1173.5125">wall_thick</tspan></text>
+    </g>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path10260"
+       d="m 714.5634,1263.877 15.80835,-16.6466"
+       style="fill:#cc0000;fill-opacity:1;stroke:#000000;stroke-width:0.229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.229, 0.229;stroke-dashoffset:0;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#cc0000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="-379.70721"
+       y="1397.7286"
+       id="text10262"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431"
+       transform="matrix(0.71012179,-0.70407886,0.70407886,0.71012179,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan10264"
+         x="-379.70721"
+         y="1397.7286">wall_thick</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path10266"
+       d="m 757.04058,1243.7367 0,22.9568"
+       style="fill:none;stroke:#000000;stroke-width:0.22935022;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.22935023, 0.22935023;stroke-dashoffset:0;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)" />
+    <text
+       inkscape:export-ydpi="119.84431"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       sodipodi:linespacing="125%"
+       id="text10268"
+       y="1255.1195"
+       x="749.2865"
+       style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       xml:space="preserve"><tspan
+         y="1255.1195"
+         x="749.2865"
+         id="tspan10270"
+         sodipodi:role="line">wall_thick</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.00543982;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.00543983, 0.00543983;stroke-dashoffset:0"
+       id="rect10272"
+       width="88.013947"
+       height="77.44976"
+       x="685.53644"
+       y="1206.2085"
+       ry="0"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/roh90_bad.png"
+       inkscape:export-xdpi="314.60779"
+       inkscape:export-ydpi="314.60779" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.62069011px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="738.67987"
+       y="1238.9368"
+       id="text10274"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/churchyard/RepRap/BI-3DT/box-task/pudoris.png"
+       inkscape:export-xdpi="119.84431"
+       inkscape:export-ydpi="119.84431"><tspan
+         sodipodi:role="line"
+         id="tspan10276"
+         x="738.67987"
+         y="1238.9368">rad &lt;= 0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="736.07147"
+       y="1225.9336"
+       id="text10278"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan10280"
+         x="736.07147"
+         y="1225.9336">špatně</tspan></text>
+  </g>
+</svg>
