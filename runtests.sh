@@ -1,5 +1,5 @@
 #!/bin/bash
-MAXTEST=2
+MAXTEST=5
 
 mkdir students 2>/dev/null
 mkdir good 2>/dev/null
