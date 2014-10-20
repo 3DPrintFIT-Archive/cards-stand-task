@@ -1,5 +1,5 @@
 #!/bin/bash
-MAXTEST=5
+MAXTEST=`grep "if (t == " tests.scad | wc -l`
 
 mkdir students 2>/dev/null
 mkdir good 2>/dev/null

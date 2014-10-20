@@ -1,5 +1,6 @@
 use <box.scad>
 
+
 if (t == 1)
   box();
 
@@ -16,3 +17,5 @@ if (t == 5)
   translate([50,0,-50])
     rotate([10,10,0])
       box(x=60,y=60,rad=25,wall_thick=10,z2=80,print_space=30,reserve=0);
+
+// Always use ""if (t == num)" including spaces!
