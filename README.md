@@ -64,4 +64,4 @@ I do this:
 
     favorite-webbrowser students/*/index.html
 
-**Notes:** Some images are missing from the HTML report, that's because no geometry was present. Sometimes empty image is shown. Consider the the same. Also note the colors do not take any significant role in the results.
+**Notes:** Some images are missing from the HTML report, that's because no geometry was present. Sometimes empty image is shown. Consider no image and empty image the same. Also note the colors do not take any significant role in the results.
