@@ -12,7 +12,7 @@ To add a test case, open `tests.scad` and add a new test to the end of the file,
       // your test here
     }
 
-Where X is the number of the test and must be `last_number_used+1`, otherwise the test suite breaks.
+Where `X` is the number of the test and must be `last_number_used+1`, otherwise the test suite breaks.
 
 To be able to see your code, you can do one of the following:
 
@@ -39,14 +39,14 @@ The cut is done by XZ plane, and is translated to the view. Also notice that you
 
 When adding new test, check if *our* `box.scad` works as expected!
 
-Downloading from edux
+Downloading from Edux
 ---------------------
 
 You'll need two files: `usernames.txt` and `cookie.txt`. The first lists usernames of our students (see `usernames.txt.sample` for syntax). The second one adds exactly one cookie from Edux (it's the longest one) - see `cookie.txt.sample` for syntax.
 
 For security reasons, those files are not stored in git and are gitignored.
 
-When ready, run `./download.sh` to download stuff form Edux.
+When ready, run `./download.sh` to download stuff from Edux.
 
 Running the tests
 -----------------
