@@ -37,4 +37,29 @@ For your convenience, the module `cut()` is provided, that let you see the slice
 
 The cut is done by XZ plane, and is translated to the view. Also notice that you can and shall use $fn when necessary - for example to avoid different results depending on the initial position of a corner circle/cylinder.
 
+Downloading from edux
+---------------------
 
+You'll need two files: `usernames.txt` and `cookie.txt`. The first lists usernames of our students (see `usernames.txt.sample` for syntax). The second one adds exactly one cookie from Edux (it's the longest one) - see `cookie.txt.sample` for syntax.
+
+For security reasons, those files are not stored in git and are gitignored.
+
+When ready, run `./download.sh` to download stuff form Edux.
+
+Running the tests
+-----------------
+
+To run the tests it is better to have already downloaded the solutions from Edux. But in case you don't want to, you can simply run the test without it and examine the pictures in `good` folder once finished.
+
+Run `./runtests.sh` to run the tests. For now, they only run in serial.
+
+Examining the results
+---------------------
+
+To see the result, use your web browser to view `index.html` (located in each student's folder).
+
+I do this:
+
+    favorite-webbrowser students/*/index.html
+
+**Notes:** Some images are missing from the HTML report, that's because no geometry was present. Sometimes empty image is shown. Consider the the same. Also note the colors do not take any significant role in the results.
