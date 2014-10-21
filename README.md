@@ -35,7 +35,7 @@ For your convenience, the module `cut()` is provided, that let you see the slice
       cut()
         box(to_print=false,reserve=0,$fn=100);
 
-The cut is done by XZ plane, and is translated to the view. Also notice that you can and shall use $fn when necessary - for example to avoid different results depending on the initial position of a corner circle/cylinder.
+The cut is done by XZ plane, and is translated to the view. Also notice that you can and shall use `$fn` when necessary - for example to avoid different results depending on the initial position of a corner circle/cylinder.
 
 When adding new test, check if *our* `box.scad` works as expected!
 
