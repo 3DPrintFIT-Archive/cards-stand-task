@@ -22,7 +22,7 @@ tests() {
     if [ x$end == x ]; then
       end=`grep "^// Always use" tests.scad -n | cut -d: -f1`
     fi
-    tail -n+$(($start+1)) tests.scad | head -$(($end-$start-1)) >> $REPORT
+    tail -n+$(($start)) tests.scad | head -$(($end-$start)) >> $REPORT
     grep ERROR log >> $REPORT
     grep WARNING log >> $REPORT
     echo "</pre><hr />" >> $REPORT
