@@ -50,8 +50,10 @@ if (t == 9)
     box(x=11,to_print=false,z1=0,z2=0,reserve=0.5,$fn=100);
 
 if (t == 10)
-  cut()
-    box(to_print=false,reserve=10,$fn=100);
+  cut() {
+    box(to_print=false,reserve=10,lock_z=2,$fn=100);
+    translate([0,0,14]) cube([30,3,12],true);
+  }
 
 if (t == 11)
   box(x=0);
