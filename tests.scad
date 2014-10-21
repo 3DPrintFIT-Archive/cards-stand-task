@@ -1,5 +1,17 @@
 use <box.scad>
 
+module cut() {
+  translate([35,-70,45])
+    rotate([-35,0,25]) {
+      difference() {
+        union() {
+          children();
+        }
+        translate([-50,-100,0]) cube(100);
+        translate([-50,0.0000000001,0]) cube(100);
+      }
+    }
+}
 
 if (t == 1)
   box();
@@ -21,6 +33,21 @@ if (t == 5)
 if (t == 6)
   rotate([-50,180,25])
     box(print_space=0,x=10,y=30,wall_thick=10);
+
+if (t == 7) {
+  cut() {
+    translate([-19,0,0]) cylinder(r=1,h=15.5);
+    box(to_print=false,reserve=0.5,z1=10,z2=5,$fn=100);
+  }
+}
+
+if (t == 8)
+  cut()
+    box(to_print=false,reserve=0,$fn=100);
+
+if (t == 9)
+  cut()
+    box(to_print=false,reserve=10,$fn=100);
 
 // Always use "if (t == num)" including spaces!
 // This file is being grepped for '^if (t == 1)' etc.
