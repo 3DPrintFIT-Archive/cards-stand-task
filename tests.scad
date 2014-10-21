@@ -47,7 +47,30 @@ if (t == 8)
 
 if (t == 9)
   cut()
+    box(x=11,to_print=false,z1=0,z2=0,reserve=0.5,$fn=100);
+
+if (t == 10)
+  cut()
     box(to_print=false,reserve=10,$fn=100);
+
+if (t == 11)
+  box(x=0);
+
+if (t == 12)
+  box(x=-5);
+
+if (t == 13)
+  box(y=0);
+
+if (t == 14)
+  box(y=-5);
+
+if (t == 15)
+  box(wall_thick=0);
+
+if (t == 16)
+  box(wall_thick=-2);
 
 // Always use "if (t == num)" including spaces!
 // This file is being grepped for '^if (t == 1)' etc.
+// Numbers must be in the correct order and no number can be skipped
