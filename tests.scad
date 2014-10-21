@@ -22,4 +22,5 @@ if (t == 6)
   rotate([-50,180,25])
     box(print_space=0,x=10,y=30,wall_thick=10);
 
-// Always use ""if (t == num)" including spaces!
+// Always use "if (t == num)" including spaces!
+// This file is being grepped for '^if (t == 1)' etc.
