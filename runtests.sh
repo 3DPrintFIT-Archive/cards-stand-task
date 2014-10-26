@@ -9,12 +9,10 @@ rm good/*.png 2>/dev/null
 tests() {
   REPORT=index.html
   echo '<html>' > $REPORT
-  echo "<HEAD>" >> $REPORT
+  echo "<head>" >> $REPORT
   echo "  <meta charset=\"UTF-8\">" >> $REPORT
-  echo "  <TITLE>" >> $REPORT
-  echo "  BI-3DT Domaci úkol" >> $REPORT
-  echo "  </TITLE>" >> $REPORT
-  echo "</HEAD>" >> $REPORT
+  echo "  <title>$1 - BI-3DT Domácí úkol</title>" >> $REPORT
+  echo "</head>" >> $REPORT
   echo '<body>' >> $REPORT
   rm t*.png 2>/dev/null
   for i in $(seq 1 $MAXTEST); do
@@ -48,7 +46,7 @@ for DIR in students/*; do
   echo -n ${DIR#*/}
   pushd $DIR > /dev/null
   cp ../../tests.scad .
-  tests
+  tests ${DIR#*/}
   rm tests.scad
   popd > /dev/null
 done
