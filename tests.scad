@@ -73,32 +73,38 @@ if (t == 15)
 if (t == 16)
   box(wall_thick=-2); // nic
 
+t=20;
 if (t == 17) {
   // Test, ktery je zameren na pomerne slozity test case
   // Ocekavam karabičku bez zubů a bez stěn 2,5 mm od sebe dno a strop, protože reserve > wall_thick
-  cut() {
-    box(x=5,y=5,z1=1,z2=1,lock_z=1,wall_thick=1,to_print=false);
-    translate([4,0,0]) cube([5,5,1+1+2.5]);
-  }
+	translate([-5,0,5])
+ 	cut() {
+    	box(x=5,y=5,z1=1,z2=1,lock_z=1,wall_thick=1,to_print=false);
+	    translate([4,0,0]) cube([5,5,1+1+2.5]);
+  	}
 }
-t=20;
+
 if (t == 18) {
   // Normalni test s mirne divnyma hodnotama
-    rotate([10,0,20])
-	    box(x=15,y=35,z1=14,z2=12,lock_z=15,wall_thick=14);
+	scale([0.45,0.45,0.45])
+	    rotate([10,0,20])
+		    box(x=15,y=35,z1=14,z2=12,lock_z=15,wall_thick=14);
 }
 
 if (t == 19) {
   // Normalni test s mirne divnyma hodnotama, rezerva je 0
-    rotate([0,0,170])
-	    box(x=35,y=35,z1=14,z2=12,lock_z=1,wall_thick=4,reserve=0);
+	scale([0.5,0.5,0.5])
+	    rotate([0,0,170])
+		    box(x=35,y=35,z1=14,z2=12,lock_z=1,wall_thick=4,reserve=0);
 }
 
 if (t == 20) {
   // Kontrola rozmeru vyska je 25 mm a mezi dily je presne pylon od kraje ke kraji
-    rotate([-30,0,25]) {
-	    box(x=35,y=35,z1=25,z2=20,lock_z=5,wall_thick=4,reserve=0);
-		translate([0,0,25/2])cube (size=[5,5,25],center=true);
+	scale([0.5,0.5,0.5]){	
+		cut(){
+			box(x=35,y=35,z1=25,z2=20,lock_z=5,wall_thick=4,reserve=0);
+			translate([0,0,25/2])cube (size=[5,5,25],center=true);
+		}
 	}
 }
 
