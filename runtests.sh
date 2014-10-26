@@ -8,7 +8,14 @@ rm good/*.png 2>/dev/null
 
 tests() {
   REPORT=index.html
-  echo '<html><body>' > $REPORT
+  echo '<html>' > $REPORT
+  echo "<HEAD>" >> $REPORT
+  echo "  <meta charset=\"UTF-8\">" >> $REPORT
+  echo "  <TITLE>" >> $REPORT
+  echo "  BI-3DT Domaci úkol" >> $REPORT
+  echo "  </TITLE>" >> $REPORT
+  echo "</HEAD>" >> $REPORT
+  echo '<body>' >> $REPORT
   rm t*.png 2>/dev/null
   for i in $(seq 1 $MAXTEST); do
     openscad -D t=$i -o t$i.png tests.scad --render --camera=0,0,0,55,0,25,140 --imgsize=400,400 2>log
