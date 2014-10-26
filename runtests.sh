@@ -13,6 +13,8 @@ tests() {
   echo "<head>" >> $REPORT
   echo "  <meta charset=\"UTF-8\">" >> $REPORT
   echo "  <title>$1 - BI-3DT Domácí úkol</title>" >> $REPORT
+  echo "  <script src=\"../../js/jquery-1.11.0.min.js\"></script>" >> $REPORT
+  echo "  <script src=\"../../js/score.js\"></script>" >> $REPORT
   echo "</head>" >> $REPORT
   echo '<body>' >> $REPORT
   rm t*.png 2>/dev/null
@@ -24,6 +26,7 @@ tests() {
     echo "<h1>$i</h1>" >> $REPORT
     echo "<img src=\"../../good/t$i.png\" title=\"good\"/>" >> $REPORT
     echo "<img src=\"t$i.png\" title=\"student\"/>" >> $REPORT
+    echo "<input id=\"error$i\" class=\"error\" type=\"checkbox\" name=\"error$i\" value=\"error$i\">Obsahuje chybu<br>" >> $REPORT
     echo "<pre>" >> $REPORT
     start=`grep "^if (t == $i)" tests.scad -n | cut -d: -f1`
     end=`grep "^if (t == $(($i+1)))" tests.scad -n | cut -d: -f1`
@@ -33,6 +36,10 @@ tests() {
     tail -n+$(($start)) tests.scad | head -$(($end-$start)) >> $REPORT
     echo "</pre><hr />" >> $REPORT
   done
+
+  echo '<button id="calculate" name="calculate" class="btn btn-primary">Caltucate</button>' >> $REPORT
+  echo "<div id=\"info\"> Zde bude informace o poctu chyb </div>" >> $REPORT
+  echo "<div id=\"result\"> Zde bude vysledek </div>" >> $REPORT
   echo '</body></html>' >> $REPORT
 }
 
