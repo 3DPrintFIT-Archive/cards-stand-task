@@ -7,8 +7,8 @@ module cut() {
         union() {
           children();
         }
-        translate([-50,-100,0]) cube(100);
-        translate([-50,0.0000000001,0]) cube(100);
+        translate([-500,-1000,-100]) cube(1000);
+        translate([-500,0.0000000001,-100]) cube(1000);
       }
     }
 }
@@ -93,7 +93,7 @@ if (t == 15) {
 	scale(0.5){	
 		cut(){
 			box(x=35,y=35,z1=25,z2=20,lock_z=5,wall_thick=4,reserve=0);
-			translate([0,0,25/2])cube (size=[5,5,25],center=true);
+			cube (size=[5,5,20],center=true);
 		}
 	}
 }
