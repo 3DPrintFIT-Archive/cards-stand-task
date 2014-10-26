@@ -53,7 +53,7 @@ Running the tests
 
 To run the tests it is better to have already downloaded the solutions from Edux. But in case you don't want to, you can simply run the test without it and examine the pictures in `good` folder once finished.
 
-Run `./runtests.sh` to run the tests. For now, they only run in serial.
+Run `./runtests.sh` to run the tests. For each student, the jobs run in parallel. Your CPUs might get a bit hot.
 
 Examining the results
 ---------------------
