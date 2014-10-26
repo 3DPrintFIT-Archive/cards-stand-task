@@ -47,7 +47,7 @@ if (t == 8)
 
 if (t == 9)
   cut()
-box(x=11,to_print=false,z1=0,z2=0,reserve=0.5,$fn=100); // výška krabičky se musí přizpůsobit zubům a reservě
+    box(x=11,to_print=false,z1=0,z2=0,reserve=0.5,$fn=100); // výška krabičky se musí přizpůsobit zubům a reservě
 
 if (t == 10)
   cut() {
