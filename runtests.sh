@@ -7,6 +7,7 @@ mkdir good 2>/dev/null
 rm good/*.png 2>/dev/null
 
 tests() {
+  echo -en '\e[1;32m'"$1"'\e[m'
   REPORT=index.html
   echo '<html>' > $REPORT
   echo "<head>" >> $REPORT
@@ -16,8 +17,10 @@ tests() {
   echo '<body>' >> $REPORT
   rm t*.png 2>/dev/null
   for i in $(seq 1 $MAXTEST); do
-    openscad -D t=$i -o t$i.png tests.scad --render --camera=0,0,0,55,0,25,140 --imgsize=400,400 2>log
-    echo -n .
+    (
+      openscad -D t=$i -o t$i.png tests.scad --render --camera=0,0,0,55,0,25,140 --imgsize=400,400 2>/dev/null
+      echo -n .
+    ) &
     echo "<h1>$i</h1>" >> $REPORT
     echo "<img src=\"../../good/t$i.png\" title=\"good\"/>" >> $REPORT
     echo "<img src=\"t$i.png\" title=\"student\"/>" >> $REPORT
@@ -28,25 +31,24 @@ tests() {
       end=`grep "^// Always use" tests.scad -n | cut -d: -f1`
     fi
     tail -n+$(($start)) tests.scad | head -$(($end-$start)) >> $REPORT
-    grep ERROR log >> $REPORT
-    grep WARNING log >> $REPORT
     echo "</pre><hr />" >> $REPORT
   done
-  echo
   echo '</body></html>' >> $REPORT
-  rm log
 }
 
-echo -n good
-tests
+tests good
+for job in `jobs -p`; do wait $job; done
+echo
+
 mv *.png good/
 rm index.html
 
 for DIR in students/*; do
-  echo -n ${DIR#*/}
   pushd $DIR > /dev/null
   cp ../../tests.scad .
   tests ${DIR#*/}
+  for job in `jobs -p`; do wait $job; done
+  echo
   rm tests.scad
   popd > /dev/null
 done
