@@ -37,9 +37,9 @@ tests() {
     echo "</pre><hr />" >> $REPORT
   done
 
-  echo '<button id="calculate" name="calculate" class="btn btn-primary">Caltucate</button>' >> $REPORT
-  echo "<div id=\"info\"> Zde bude informace o poctu chyb </div>" >> $REPORT
-  echo "<div id=\"result\"> Zde bude vysledek </div>" >> $REPORT
+  echo "<div id=\"info\"></div>" >> $REPORT
+  echo "<div id=\"result\"></div>" >> $REPORT
+  echo '<button id="calculate" name="calculate" class="btn btn-primary">Spočítat body</button>' >> $REPORT
   echo '</body></html>' >> $REPORT
 }
 

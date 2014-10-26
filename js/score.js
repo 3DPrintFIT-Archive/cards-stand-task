@@ -8,10 +8,9 @@ $(function () {
 				numberOfErrors++;	
 			}
 		}
-		console.log ( "Pocet chyb " + numberOfErrors );
-		var result = 20 - (20/array.length)*numberOfErrors;
-		document.getElementById('info').innerHTML =  ("Pocet chyb <b>:" + numberOfErrors + "</b>");
-		document.getElementById('result').innerHTML =  ("Vysledek je <b>:" + result + "</b>");
+		var result = 18 - (18/array.length)*numberOfErrors;
+		document.getElementById('info').innerHTML =  ("Počet chyb <strong>:" + numberOfErrors + "</strong>");
+		document.getElementById('result').innerHTML =  ("Výsledek je <strong>:" + result + "</strong>");
 
 	});
 });
