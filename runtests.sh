@@ -36,7 +36,7 @@ tests() {
   echo '</body></html>' >> $REPORT
 }
 
-tests good
+tests goodgood
 for job in `jobs -p`; do wait $job; done
 echo
 
