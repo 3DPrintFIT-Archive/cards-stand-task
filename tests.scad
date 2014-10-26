@@ -74,13 +74,12 @@ if (t == 16)
   box(wall_thick=-2);
 
 if (t == 17) {
-	// Test, ktery je zameren na pomerne slozity test case
-	// Ocekavam karabičku bez zubů a bez stěn 2,5 mm od sebe dno a strop, protože reserve > wall_thick
-	rotate([-36,0,0])
-		scale([2,2,2]){
-    	  box(z1=1,z2=1,lock_z=1,wall_thick=1,to_print=false);
-			translate([15,0,0])cube([5,5,1+1+2.5]);
-		}
+  // Test, ktery je zameren na pomerne slozity test case
+  // Ocekavam karabičku bez zubů a bez stěn 2,5 mm od sebe dno a strop, protože reserve > wall_thick
+  cut() {
+    box(x=5,y=5,z1=1,z2=1,lock_z=1,wall_thick=1,to_print=false);
+    translate([4,0,0]) cube([5,5,1+1+2.5]);
+  }
 }
 
 // Always use "if (t == num)" including spaces!
