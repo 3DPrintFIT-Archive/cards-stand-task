@@ -100,8 +100,8 @@ if (t == 15) {
 
 if (t == 16) {
 	// Kontrola parametru z1,z2 nastavenych na 0
-	scale(1.5){	
-		cut(){
+	cut(){	
+		scale(1.5){
 			box(x=30, y=10, z1=0, z2=0, rad=0, wall_thick=1, lock_z=0, reserve=1, to_print=false);
 		}
 	}
