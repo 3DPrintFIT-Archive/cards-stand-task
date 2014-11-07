@@ -121,6 +121,11 @@ if (t == 18) {
 	}
 }
 
+if (t == 19) {
+    scale(0.1)
+        box(x=300, y=300, z1=100, z2=50, rad=150, wall_thick=20, lock_z=20, reserve=15, to_print=true, print_space=50);
+}
+
 // Always use "if (t == num)" including spaces!
 // This file is being grepped for '^if (t == 1)' etc.
 // Numbers must be in the correct order and no number can be skipped
