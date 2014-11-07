@@ -98,6 +98,29 @@ if (t == 15) {
 	}
 }
 
+if (t == 16) {
+	// Kontrola parametru z1,z2 nastavenych na 0
+	scale(1.5){	
+		cut(){
+			box(x=30, y=10, z1=0, z2=0, rad=0, wall_thick=1, lock_z=0, reserve=1, to_print=false);
+		}
+	}
+}
+
+if (t == 17) {
+	// Parametry nastaveny pod rozlišovací schopnosti tiskárny, ale krabička by se měla stále vykreslit
+	cut(){
+		box(x=10,y=10,wall_thick=0.2,reserve=0.2/3, to_print=false,$fn=100);
+	}
+}
+
+if (t == 18) {
+	// Krabičky by se měly překreslit přesně přes sebe
+	cut(){
+		box(x=10,y=10,z1=12,z2=10,reserve=2/3,print_space=-14);
+	}
+}
+
 // Always use "if (t == num)" including spaces!
 // This file is being grepped for '^if (t == 1)' etc.
 // Numbers must be in the correct order and no number can be skipped
