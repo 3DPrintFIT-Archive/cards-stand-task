@@ -110,7 +110,7 @@ if (t == 16) {
 if (t == 17) {
 	// Parametry nastaveny pod rozlišovací schopnosti tiskárny, ale krabička by se měla stále vykreslit
 	cut(){
-		box(x=10,y=10,wall_thick=0.2,reserve=0.2/3, to_print=false,$fn=100);
+		scale(2.5) translate([0,0,-5]) box(x=10,y=10,wall_thick=0.2,reserve=0.2/3, to_print=false,$fn=100);
 	}
 }
 
