@@ -3,6 +3,11 @@ box-task
 
 Tests for BI-3DT homework.
 
+Information for students
+------------------------
+
+To run the tests on your code, put your `box.scad` in `students/username/box.scad` and proceed with **Running the tests** section.
+
 Adding test cases
 -----------------
 
@@ -51,9 +56,7 @@ When ready, run `./download.sh` to download stuff from Edux.
 Running the tests
 -----------------
 
-To run the tests it is better to have already downloaded the solutions from Edux. But in case you don't want to, you can simply run the test without it and examine the pictures in `good` folder once finished.
-
-Run `./runtests.sh` to run the tests. For each student, the jobs run in parallel. Your CPUs might get a bit hot.
+Once downloaded the solutions form Edux or once put your solution to the right folder, run `./runtests.sh` to run the tests. For each student, the jobs run in parallel. Your CPUs might get a bit hot.
 
 Examining the results
 ---------------------
@@ -64,4 +67,10 @@ I do this:
 
     favorite-webbrowser students/*/index.html
 
+Tested box is on the right:
+
+![Screenshot](screenshot.png)
+
 **Notes:** Some images are missing from the HTML report, that's because no geometry was present. Sometimes empty image is shown. Consider no image and empty image the same. Also note the colors do not take any significant role in the results.
+
+In case all of the geometry is extremely zoomed in (it happens on some platforms), open `runtests.sh` and edit the last constant of the `--camera` option passed to `openscad` to, let's say 430, and rerun the tests.
