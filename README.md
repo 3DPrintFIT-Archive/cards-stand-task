@@ -73,4 +73,4 @@ Tested box is on the right:
 
 **Notes:** Some images are missing from the HTML report, that's because no geometry was present. Sometimes empty image is shown. Consider no image and empty image the same. Also note the colors do not take any significant role in the results.
 
-In case all of the geometry is extremely zoomed in (it happens on some platforms), open `runtests.sh` and edit the last constant of the `--camera` option passed to `openscad` to, let's say 430, and rerun the tests.
+This test suite only works with OpenSCAD 2014.03. It doesn't work on newer versions.

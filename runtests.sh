@@ -20,7 +20,7 @@ tests() {
   rm t*.png 2>/dev/null
   for i in $(seq 1 $MAXTEST); do
     (
-      openscad -D t=$i -o t$i.png tests.scad --render --camera=0,0,0,55,0,25,140 --imgsize=400,400 2>/dev/null
+      openscad -D t=$i -o t$i.png tests.scad --render --camera=0,0,0,55,0,25,430 --imgsize=400,400 2>/dev/null
       echo -n .
     ) &
     echo "<h1>$i</h1>" >> $REPORT
