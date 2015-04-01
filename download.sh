@@ -21,6 +21,11 @@ for USER in $USERNAMES; do
   curl -O https://edux.fit.cvut.cz/courses/BI-3DT/_media/student/$USER/box.zip?purge --cookie "$COOKIE"
   mv -f 'box.zip?purge' box.zip
   if ! unzip -o box.zip; then
+    rm box.zip
+    curl -O https://edux.fit.cvut.cz/courses/BI-3DT/_media/en/student/$USER/box.zip?purge --cookie "$COOKIE"
+    mv -f 'box.zip?purge' box.zip
+  fi
+  if ! unzip -o box.zip; then
     popd > /dev/null
     rm -rf $dir
     continue
