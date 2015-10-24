@@ -18,18 +18,18 @@ for USER in $USERNAMES; do
   dir=students/$USER
   mkdir -p $dir
   pushd $dir > /dev/null
-  curl -O https://edux.fit.cvut.cz/courses/BI-3DT/_media/student/$USER/box.zip?purge --cookie "$COOKIE"
-  mv -f 'box.zip?purge' box.zip
-  if ! unzip -o box.zip; then
-    rm box.zip
-    curl -O https://edux.fit.cvut.cz/courses/BI-3DT/_media/en/student/$USER/box.zip?purge --cookie "$COOKIE"
-    mv -f 'box.zip?purge' box.zip
-    if ! unzip -o box.zip; then
+  curl -O https://edux.fit.cvut.cz/courses/BI-3DT/_media/student/$USER/cardholder.zip?purge --cookie "$COOKIE"
+  mv -f 'cardholder.zip?purge' cardholder.zip
+  if ! unzip -o cardholder.zip; then
+    rm cardholder.zip
+    curl -O https://edux.fit.cvut.cz/courses/BI-3DT/_media/en/student/$USER/cardholder.zip?purge --cookie "$COOKIE"
+    mv -f 'cardholder.zip?purge' cardholder.zip
+    if ! unzip -o cardholder.zip; then
       popd > /dev/null
       rm -rf $dir
       continue
     fi
   fi
-  rm box.zip
+  rm cardholder.zip
   popd > /dev/null
 done

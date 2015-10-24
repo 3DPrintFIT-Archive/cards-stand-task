@@ -1,12 +1,12 @@
-box-task
-========
+cards-stand-task
+================
 
 Tests for BI-3DT homework.
 
 Information for students
 ------------------------
 
-To run the tests on your code, put your `box.scad` in `students/username/box.scad` and proceed with **Running the tests** section.
+To run the tests on your code, put your `cardholder.scad` in `students/username/cardholder.scad` and proceed with **Running the tests** section.
 
 Adding test cases
 -----------------
@@ -34,15 +34,23 @@ To be able to see your code, you can do one of the following:
 
 If you happen to manipulate the view by accident, you can select **Reset view** from the **View** menu.
 
-For your convenience, the module `cut()` is provided, that let you see the slice of an object. See some tests that use it, to see how it works:
+For your convenience, few modules are provided:
 
-    if (t == 8)
+The `distance()` module lets you see the object from a greater distance, because the default arguments won't fit into the canvas. It takes a `factor` argument (default 1) if you need to make the distance longer. This is how it works:
+
+    if (t == X)
+      distance(1.2)
+        cardholder(...);
+
+The `cut()` module lets you see the slice of an object. See how it works:
+
+    if (t == Y)
       cut()
-        box(to_print=false,reserve=0,$fn=100);
+        cardholder(..., $fn=100);
 
-The cut is done by XZ plane, and is translated to the view. Also notice that you can and shall use `$fn` when necessary - for example to avoid different results depending on the initial position of a corner circle/cylinder.
+The cut is done by YZ plane, and is translated to the view. Also notice that you can and shall use `$fn` when necessary - for example to avoid different results depending on the initial position of a corner circle/cylinder. Cut also takes a `factor` argument to move it closer or more far away.
 
-When adding new test, check if *our* `box.scad` works as expected!
+When adding new test, check if *our* `cardholder.scad` works as expected! Be careful that the current one dos not and is in the repository simply for testing purposes.
 
 Downloading from Edux
 ---------------------
@@ -56,7 +64,7 @@ When ready, run `./download.sh` to download stuff from Edux.
 Running the tests
 -----------------
 
-Once downloaded the solutions form Edux or once put your solution to the right folder, run `./runtests.sh` to run the tests. For each student, the jobs run in parallel. Your CPUs might get a bit hot.
+Once downloaded the solutions from Edux or once put your solution to the right folder, run `./runtests.sh` to run the tests. For each student, the jobs run in parallel. Your CPUs might get a bit hot.
 
 Examining the results
 ---------------------
@@ -67,10 +75,10 @@ I do this:
 
     favorite-webbrowser students/*/index.html
 
-Tested box is on the right:
+Tested thing is on the right (screen form the box task):
 
 ![Screenshot](screenshot.png)
 
 **Notes:** Some images are missing from the HTML report, that's because no geometry was present. Sometimes empty image is shown. Consider no image and empty image the same. Also note the colors do not take any significant role in the results.
 
-This test suite only works with OpenSCAD 2014.03. It doesn't work on newer versions.
+This test suite only works with OpenSCAD 2015.03. It doesn't work on older versions.
