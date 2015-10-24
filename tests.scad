@@ -26,10 +26,14 @@ if (t == 2) {
 }
 
 if (t == 3) {
-    cut() cardholder(cards=10, delta=0, spacing=5); // 0 delta
+    cut() cardholder(cards=-10, delta=2, spacing=5); // negative delta
 }
 
 if (t == 4) {
+    cut() cardholder(cards=10, delta=0, spacing=5); // 0 delta
+}
+
+if (t == 5) {
     distance(1.2) cardholder(spacing=10); // big spacing
 }
 
