@@ -48,7 +48,7 @@ tests goodgood
 for job in `jobs -p`; do wait $job; done
 echo
 
-mv *.png good/
+mv t*.png good/
 rm index.html
 
 for DIR in students/*; do
