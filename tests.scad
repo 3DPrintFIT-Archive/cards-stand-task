@@ -27,7 +27,7 @@ if (t == 2) {
 }
 
 if (t == 3) {
-    cut() cardholder(cards=-10, delta=2, spacing=5); // negative delta
+    cut() cardholder(cards=10, delta=-2, spacing=5); // negative delta
 }
 
 if (t == 4) {
@@ -83,8 +83,8 @@ if (t == 11) {
 if (t == 12) {
     distance() {
         // should line up
-        translate([0,0,85/2]) cardholder(visibility=1);
-        translate([-30,0,0]) cardholder(visibility=0.5);
+        translate([0,0,85/2]) cardholder(visibility=1, spacing=10);
+        translate([-30,0,0]) cardholder(visibility=0.5, spacing=10);
     }
 }
 
