@@ -84,6 +84,20 @@ if (t == 11) {
     }
 }
 
+if (t == 12) {
+    distance() {
+        // nothing should be drown, just the cube
+        cube(10);
+        cardholder(size=5);
+        cardholder(size=[5]);
+        cardholder(size=[0,0,5]);
+        cardholder(size=[0,5,5]);
+        cardholder(size=[5,0,5]);
+        cardholder(cards=0);
+        cardholder(cards=-5);
+    }
+}
+
 // Always use "if (t == num)" including spaces!
 // This file is being grepped for '^if (t == 1)' etc.
 // Numbers must be in the correct order and no number can be skipped
