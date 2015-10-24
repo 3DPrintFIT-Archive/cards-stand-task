@@ -29,6 +29,10 @@ if (t == 3) {
     cut() cardholder(cards=10, delta=0, spacing=5); // 0 delta
 }
 
+if (t == 4) {
+    distance(1.2) cardholder(spacing=10); // big spacing
+}
+
 // Always use "if (t == num)" including spaces!
 // This file is being grepped for '^if (t == 1)' etc.
 // Numbers must be in the correct order and no number can be skipped
