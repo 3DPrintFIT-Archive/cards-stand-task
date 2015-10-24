@@ -37,6 +37,16 @@ if (t == 5) {
     distance(1.2) cardholder(spacing=10); // big spacing
 }
 
+if (t == 6) {
+    distance() {
+        cardholder(thickeness=0.01, thickness=0.01, $fn=100); // small thickness
+    }
+}
+
+if (t == 7) {
+    distance() cardholder(visibility=1, spacing=0); // front holder should still exist, just with thickness
+}
+
 // Always use "if (t == num)" including spaces!
 // This file is being grepped for '^if (t == 1)' etc.
 // Numbers must be in the correct order and no number can be skipped
