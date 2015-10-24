@@ -22,11 +22,13 @@ if (t == 1) {
 }
 
 if (t == 2) {
-    cut() cardholder(cards=10, delta=2, spacing=5); // default argument form inside
+    cut() cardholder(cards=10, delta=2, spacing=5); // almost default arguments from inside
 }
 
+if (t == 3) {
+    cut() cardholder(cards=10, delta=0, spacing=5); // 0 delta
+}
 
-t=2;
 // Always use "if (t == num)" including spaces!
 // This file is being grepped for '^if (t == 1)' etc.
 // Numbers must be in the correct order and no number can be skipped
