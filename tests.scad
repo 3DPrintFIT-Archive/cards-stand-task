@@ -11,6 +11,7 @@ module cut(factor=1) {
         difference() {
             children();
             translate([-10000,-5000,0]) cube(10000);
+            translate([0.01,-5000,0]) cube(10000);
         }
     }
 }
