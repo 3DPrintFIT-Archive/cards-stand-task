@@ -40,7 +40,7 @@ tests() {
   echo "<p id=\"info\">&nbsp;</p>" >> $REPORT
   echo "<p id=\"result\">&nbsp;</p>" >> $REPORT
   echo '<button id="calculate" name="calculate" class="btn btn-primary">Spočítat body</button>' >> $REPORT
-  echo "<a href=\"https://edux.fit.cvut.cz/courses/BI-3DT/en/classification/student/$1/start\">Edux $1</a>" >> $REPORT
+  echo "<a href=\"https://edux.fit.cvut.cz/courses/BI-3DT/classification/student/$1/start\">Edux $1</a>" >> $REPORT
   echo '</body></html>' >> $REPORT
 }
 
