@@ -75,6 +75,14 @@ if (t == 10) {
     }
 }
 
+if (t == 11) {
+    distance() {
+        // should line up
+        translate([0,0,85/2]) cardholder(visibility=1);
+        translate([-30,0,0]) cardholder(visibility=0.5);
+    }
+}
+
 // Always use "if (t == num)" including spaces!
 // This file is being grepped for '^if (t == 1)' etc.
 // Numbers must be in the correct order and no number can be skipped
