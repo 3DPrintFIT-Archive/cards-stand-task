@@ -39,16 +39,20 @@ if (t == 5) {
 }
 
 if (t == 6) {
+    distance(1.2) cardholder(thickness=30, thickeness=30); // big thickness
+}
+
+if (t == 7) {
     distance() {
         cardholder(thickeness=0.01, thickness=0.01, $fn=100); // small thickness
     }
 }
 
-if (t == 7) {
+if (t == 8) {
     distance() cardholder(visibility=1, spacing=0); // front holder should still exist, just with thickness
 }
 
-if (t == 8) {
+if (t == 9) {
     distance() {
         // should be equal
         cardholder(visibility=1);
@@ -56,7 +60,7 @@ if (t == 8) {
     }
 }
 
-if (t == 9) {
+if (t == 10) {
     distance() {
         // should be equal
         cardholder(visibility=0, cards=2);
@@ -64,7 +68,7 @@ if (t == 9) {
     }
 }
 
-if (t == 10) {
+if (t == 11) {
     distance() {
         // should be equal
         $fn=30;
@@ -76,7 +80,7 @@ if (t == 10) {
     }
 }
 
-if (t == 11) {
+if (t == 12) {
     distance() {
         // should line up
         translate([0,0,85/2]) cardholder(visibility=1);
@@ -84,7 +88,7 @@ if (t == 11) {
     }
 }
 
-if (t == 12) {
+if (t == 13) {
     distance() {
         // nothing should be drown, just the cube
         cube(10);
