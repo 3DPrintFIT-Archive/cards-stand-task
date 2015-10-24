@@ -47,6 +47,34 @@ if (t == 7) {
     distance() cardholder(visibility=1, spacing=0); // front holder should still exist, just with thickness
 }
 
+if (t == 8) {
+    distance() {
+        // should be equal
+        cardholder(visibility=1);
+        translate([-100,0,0]) cardholder(visibility=100);
+    }
+}
+
+if (t == 9) {
+    distance() {
+        // should be equal
+        cardholder(visibility=0, cards=2);
+        translate([-100,0,0]) cardholder(visibility=-100, cards=2);
+    }
+}
+
+if (t == 10) {
+    distance() {
+        // should be equal
+        $fn=30;
+        scale(100)
+            cardholder(size=[85, 54, 1]/100, thickness=0.03, thickeness=0.03, spacing=0.01, delta=0.25, cards=3);
+        translate([-100,0,0])
+            scale(0.01)
+                cardholder(size=[85, 54, 1]*100, thickness=300, thickeness=300, spacing=100, delta=2500, cards=3);
+    }
+}
+
 // Always use "if (t == num)" including spaces!
 // This file is being grepped for '^if (t == 1)' etc.
 // Numbers must be in the correct order and no number can be skipped
