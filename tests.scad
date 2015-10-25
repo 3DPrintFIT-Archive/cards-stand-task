@@ -6,12 +6,14 @@ module distance(factor=1) {
     translate([-100,230,-250]*factor) rotate([0,0,-30]) children();
 }
 
-module cut(factor=1) {
-    rotate([0,-55+90,25+90]) translate([300*factor,0,-65]) {
+module cut(factor=1,horizontal=false) {
+    rot = horizontal ? [0,90,0] : [0,0,0];
+    trans = horizontal ? [0,0,-10] : [0,0,0];
+    translate(-trans*7) rotate([0,-55+90,25+90]) translate([300*factor,0,-65]) {
         difference() {
-            children();
-            translate([-10000,-5000,0]) cube(10000);
-            translate([0.01,-5000,0]) cube(10000);
+            rotate(rot) translate(trans) children();
+            translate([-10000,-5000,-5000]) cube(10000);
+            translate([0.01,-5000,-5000]) cube(10000);
         }
     }
 }
@@ -99,6 +101,12 @@ if (t == 13) {
         cardholder(size=[5,0,5]);
         cardholder(cards=0);
         cardholder(cards=-5);
+    }
+}
+
+if (t == 14) {
+    cut(horizontal=true) {
+        cardholder(delta=0); // horiozontal cut
     }
 }
 
