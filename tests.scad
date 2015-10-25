@@ -101,6 +101,9 @@ if (t == 13) {
         cardholder(size=[5,0,5]);
         cardholder(cards=0);
         cardholder(cards=-5);
+        cardholder(cards=-5,delta=-5);
+        cardholder(cards=0,delta=-5);
+        cardholder(size=[0,0,5],delta=-5);
     }
 }
 
