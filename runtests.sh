@@ -42,12 +42,11 @@ tests() {
   echo '<button id="calculate" name="calculate" class="btn btn-primary">Spočítat body</button>' >> $REPORT
   echo "<a href=\"https://edux.fit.cvut.cz/courses/BI-3DT/classification/student/$1/start\">Edux $1</a>" >> $REPORT
   echo '</body></html>' >> $REPORT
+  for job in `jobs -p`; do wait $job; done
+  echo
 }
 
 tests goodgood
-for job in `jobs -p`; do wait $job; done
-echo
-
 mv t*.png good/
 rm index.html
 
@@ -55,8 +54,6 @@ for DIR in students/*; do
   pushd $DIR > /dev/null
   cp ../../tests.scad .
   tests ${DIR#*/}
-  for job in `jobs -p`; do wait $job; done
-  echo
   rm tests.scad
   popd > /dev/null
 done
