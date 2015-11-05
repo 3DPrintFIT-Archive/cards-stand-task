@@ -113,6 +113,14 @@ if (t == 14) {
     }
 }
 
+if (t == 15) {
+    distance() {
+        // negative spacing, should be equal
+        cardholder(size=[85,54,5], spacing=-100, cards=2);
+        translate([-100,0,0]) cardholder(size=[85,54,5], spacing=0, cards=2);
+    }
+}
+
 // Always use "if (t == num)" including spaces!
 // This file is being grepped for '^if (t == 1)' etc.
 // Numbers must be in the correct order and no number can be skipped
