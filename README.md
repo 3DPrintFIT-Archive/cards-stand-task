@@ -57,6 +57,8 @@ Downloading from Edux
 
 You'll need two files: `usernames.txt` and `cookie.txt`. The first lists usernames of our students (see `usernames.txt.sample` for syntax). The second one adds exactly one cookie from Edux (it's the longest one) - see `cookie.txt.sample` for syntax.
 
+Note: Be sure to log in to Edux using anything but Shibboleth before you copy the cookie. Also thick the *remember me* checkbox.
+
 For security reasons, those files are not stored in git and are gitignored.
 
 When ready, run `./download.sh` to download stuff from Edux.
