@@ -129,6 +129,14 @@ if (t == 16) {
     }
 }
 
+if (t == 17) {
+        cut() rotate ([0,0,90]) union() {
+            // size check - width shall equal to bottom line, heigth shall equal to line on left
+            cardholder(cards=3, delta=2, spacing=5);
+           translate([-54/2,-11/2,3+2+5]) cube([54,11,85]);
+           translate ([54/2+3+6,-45/2,0]) cube([3,12+30+3,0.7*85+3+5+2]);           translate ([-(54+2*3+2*5)/2,-45/2,-5]) cube([2*3+2*5+54,12+30+3,3]);
+        }
+}
 
 // Always use "if (t == num)" including spaces!
 // This file is being grepped for '^if (t == 1)' etc.
