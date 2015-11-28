@@ -31,15 +31,14 @@ module cardholder(size=[85, 54, 1],
         visibility = max(min(visibility,1),0);
         rot=(delta < 0) ? 180 : 0;
         delta = abs(delta);
-        extra=size[2]+2*spacing+thickness; // extra size for each card except first
+        extra=size[2]+2*spacing+thickness; // extra size for each card except first (first is extra + thickness)
         rotate([0, 0, rot]) {
             difference() {
                 // base block
                 for(c=[0:(cards-1)]) {
-                    antic=cards-1-c;
                     translate([0,c*extra/2,0]) // translate it to "the end"
                         block(size[1]+2*spacing+2*thickness, // always the same
-                              size[2]+2*spacing+2*thickness+(antic*extra), // the higher the card is, add less extra
+                              (cards-c)*extra+thickness, // the higher the card num is, add less extra
                               thickness+spacing+(1-visibility)*size[0]+c*delta, // higher by delta each time
                               spacing+thickness); // always the same
                 }
