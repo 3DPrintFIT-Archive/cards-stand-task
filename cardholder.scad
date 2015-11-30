@@ -29,10 +29,10 @@ module cardholder(size=[85, 54, 1],
         spacing = max(spacing,0);
         thickness = max(thickness,0);
         visibility = max(min(visibility,1),0);
-        rot=(delta < 0) ? 180 : 0;
+        mir=(delta < 0) ? 1 : 0;
         delta = abs(delta);
         extra=size[2]+2*spacing+thickness; // extra size for each card except first (first is extra + thickness)
-        rotate([0, 0, rot]) {
+        mirror([0,mir,0]) {
             difference() {
                 // base block
                 for(c=[0:(cards-1)]) {
