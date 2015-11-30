@@ -8,9 +8,9 @@ $(function () {
 				numberOfErrors++;	
 			}
 		}
-		var result = 18 - (18/array.length)*numberOfErrors;
+		var result = 17 - (17/array.length)*numberOfErrors;
 		document.getElementById('info').innerHTML =  ("Počet chyb: <strong>" + numberOfErrors + "</strong>");
-		document.getElementById('result').innerHTML =  ("Výsledek je: <strong>" + result + "</strong> (+ 0 až 2 body podle kvality kódu)");
+		document.getElementById('result').innerHTML =  ("Výsledek je: <strong>" + result + "</strong> (+ 0 až 3 body podle kvality kódu)");
 
 	});
 });
