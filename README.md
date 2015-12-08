@@ -50,7 +50,7 @@ The `cut()` module lets you see the slice of an object. See how it works:
 
 The cut is done by YZ plane, and is translated to the view. Also notice that you can and shall use `$fn` when necessary - for example to avoid different results depending on the initial position of a corner circle/cylinder. Cut also takes a `factor` argument to move it closer or more far away. It also takes a bool `horizontal` argument, but that's experimental.
 
-When adding new test, check if *our* `cardholder.scad` works as expected! Be careful that the current one dos not and is in the repository simply for testing purposes.
+When adding new test, check if *our* `cardholder.scad` works as expected!
 
 Downloading from Edux
 ---------------------
